@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: calc(100vh);
+    display: grid;
+    
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 2.5rem;  
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+
+    width: 100%;
+    height: 2.5rem; 
+    margin-top: auto;
+}
+
+
+.header {
+    background-color: rgb(235, 32, 32);
+    color: white;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+#orderTable{
+    
+    max-width: 400px;
+    min-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 12pt;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.imglarge {
+    width: 80%;
+}
+
+.imgcart {
+    width: 40%;
+}
+
+.center {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.right {
+    right: 0;
+    position: fixed;
+    text-align: right;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.column {
+    flex: 20%;
+    max-width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.allfoods {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px;
+    padding: 10pt;
+    background-color: rgb(255, 255, 255);
+}
+
+.cart{
+    max-width: 400px;
+    min-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px;
+    padding: 10pt;
+
+}
+
+#mainContainer{
+    height: calc(100vh - 80px);
+}
+
+/* only two column for 800px or less screen width */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 40%;
+        max-width: 40%;
+        margin: 5px;
+    }
+}
+
+
+/* only one column for 600px or less screen width */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 90%;
+        max-width: 90%;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+  select{
+    padding: 8px;
+    margin: 5px;
+    box-shadow: 1px 2px 5px black;
+  }
+
+ 
